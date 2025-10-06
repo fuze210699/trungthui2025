@@ -381,7 +381,6 @@ body {
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  margin: 2rem 0 1rem 0;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -799,8 +798,6 @@ body {
 
   .win-stats {
     gap: 1rem;
-    flex-direction: column;
-    align-items: center;
   }
 
   .stat-item {
@@ -919,7 +916,6 @@ body {
 
   .win-stats {
     gap: 0.8rem;
-    flex-direction: column;
   }
 
   .wish-section {
@@ -2528,11 +2524,6 @@ body {
   .modal-content {
     padding: 2rem;
     margin: 1rem;
-  }
-
-  .win-stats {
-    flex-direction: column;
-    align-items: center;
   }
 
   .modal-buttons {
