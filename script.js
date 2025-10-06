@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
         'images/cb_1759755134.png',
         'images/cb_1759755150.png',
         'images/cb_1759755161.png',
-        'images/cb_1759755194.png',
         'images/cb_1759755227.png',
-        'images/cb_1759755265.png'
+        'images/cb_1759755265.png',
+        'images/cb_1759755291.png'
     ];
     
     let cardImages = []; // Will be populated with random selection
@@ -741,18 +741,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     musicToggle.addEventListener('click', toggleMusic);
-    
-    // Test wish button
-    const testWishBtn = document.getElementById('test-wish-btn');
-    if (testWishBtn) {
-        testWishBtn.addEventListener('click', () => {
-            console.log('Test wish button clicked');
-            // Set some dummy game stats for testing
-            finalTime.textContent = '01:23';
-            finalMoves.textContent = '15';
-            showWinModal();
-        });
-    }
     
     sendWishButton.addEventListener('click', sendWish);
     playAgainButton.addEventListener('click', restartGame);
